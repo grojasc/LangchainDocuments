@@ -4,6 +4,7 @@ import os
 from langchain.llms import OpenAI
 # Bring in streamlit for UI/app interface
 import streamlit as st
+#Import Requests
 
 # Import PDF document loaders...there's other ones as well!
 from langchain.document_loaders import PyPDFLoader
